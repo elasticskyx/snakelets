@@ -1,0 +1,139 @@
+/****
+
+Stylesheet to set the basic page layout.
+This should be the css that doesn't change across all page templates,
+unless you're going to rearrange the whole page (menu the right or
+things like that).
+
+(c) Irmen de Jong -- part of Frog
+
+*****/
+
+body
+{
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+}
+
+div
+{
+	padding: 4px;
+	margin: 0;
+}
+
+div.nomargin {
+	padding: 0px;
+	margin: 0px;
+}
+	
+div.page
+{
+    min-width: 500px;
+    padding: 0px;
+    margin: 0px;
+}
+
+div.heading
+{
+    margin: 0;
+    padding: 1ex;
+}
+
+div.heading h1,h2,h3
+{
+	margin: 0pt;
+	padding: 0pt;
+}
+
+div.menucolumn
+{
+	float: left;
+	width: 11em;    /* also adapt margin-left of the contentcolumn, below */
+}
+
+div.menucolumn
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+div.contentcolumn
+{
+	width: auto;
+	margin-left: 12em;  /* increase together with menucolumn width above */
+	height: 100%;	/* fix the Win32 IE float bug */
+}
+div.footer
+{
+	clear: left;
+	text-align: center;
+}
+
+
+/*---- Navigation ----*/
+.hnav
+{
+	white-space: nowrap;
+}
+
+.vnav div {
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+}
+
+.vnav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.vnav li {
+    margin: 0px 0px 0px 1ex;
+    padding: 0px;
+}
+
+/* Fix IE interline spacing. Using Holly Hack so this hides for all browsers except IE \*/
+* html .vnav ul li { margin-bottom: -3pt;}
+* html div.page { height: 100%; /* also fix the page render bug */ }
+/* End */
+
+.vnav span.title {
+	white-space: nowrap;
+    margin: 0px 0px 0px 0px;
+    padding: 0pt;
+    width: 70%;
+    display: block;
+}
+
+a img
+{
+	border-width: 0;	/* remove the border around linked images. */
+}
+
+div.menucolumn img
+{
+	display: block;
+	margin: 0 auto;
+	text-align: center;	/* IE 5 centering hack */
+}
+
+td,th
+{
+    vertical-align: top;
+}
+
+table.overview
+{
+}
+
+table.overview th, table.overview td
+{
+    padding-left: 4px;
+    padding-right: 4px;
+    white-space: nowrap;
+}
+table.overview .longtext
+{
+    white-space: normal;
+}

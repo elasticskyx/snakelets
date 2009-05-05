@@ -1,0 +1,27 @@
+[2009-05-04 22:14:54.774,server,INFO] Server is starting! Snakelets 1.50
+[2009-05-04 22:14:54.776,server,INFO] Processing vhost 'charon' webapps...
+[2009-05-04 22:14:54.950,server,INFO] >> INIT WEBAPP [WebApp 'Test Web application' on vhost 'charon', urlprefix=/test/]
+[2009-05-04 22:14:55.420,server,INFO]  loading MP3 database /Users/pradeep/svn/snakelets/Snakelets/webapps/music/database.bin
+[2009-05-04 22:14:55.421,server,INFO] 
+[2009-05-04 22:14:55.421,server,INFO] 
+[2009-05-04 22:14:55.421,server,INFO] **** Music webapp cannot load database
+[2009-05-04 22:14:55.422,server,INFO] **** You have to create a mp3 database file!
+[2009-05-04 22:14:55.422,server,INFO] **** (use the makedatabase.py script for this)
+[2009-05-04 22:14:55.424,server,INFO] 
+[2009-05-04 22:14:55.424,server,INFO] 
+[2009-05-04 22:14:55.488,server,INFO] Warning: shared1 shares the session with other webapps. Possible security problem!
+[2009-05-04 22:14:55.508,server,INFO] Warning: shared2 shares the session with other webapps. Possible security problem!
+[2009-05-04 22:14:55.522,server,INFO] Processing vhost 'meuk' webapps...
+[2009-05-04 22:14:55.524,server,INFO] >> INIT WEBAPP [WebApp 'Test Web application' on vhost 'meuk', urlprefix=/test/]
+[2009-05-04 22:14:55.526,server,INFO] Processing vhost 'charon' root...
+[2009-05-04 22:14:55.539,server,INFO] Serving requests.
+[2009-05-04 22:18:10.696,server,INFO] --> NEW SHOPPINGCART
+[2009-05-04 22:18:12.491,server,INFO] Got existing shoppingcart
+[2009-05-04 22:18:13.272,server,INFO] Got existing shoppingcart
+[2009-05-04 22:18:14.194,server,INFO] Got existing shoppingcart
+[2009-05-04 22:18:14.832,server,INFO] Got existing shoppingcart
+[2009-05-04 22:18:24.983,server,INFO] Got existing shoppingcart
+[2009-05-04 22:47:04.051,server,INFO] Closing down webapps...
+[2009-05-04 22:47:04.053,server,INFO] >> CLOSE DOWN WEBAPP [WebApp 'Test Web application' on vhost 'meuk', urlprefix=/test/]
+[2009-05-04 22:47:04.055,server,INFO] >> CLOSE DOWN WEBAPP [WebApp 'Test Web application' on vhost 'charon', urlprefix=/test/]
+[2009-05-04 22:47:04.058,server,INFO] Exiting.

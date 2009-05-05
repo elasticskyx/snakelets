@@ -1,0 +1,120 @@
+/*****
+
+Stylesheet to set the COLORS of the page elements.
+(c) Irmen de Jong -- part of Frog
+
+RED colors.
+colors in use:
+	#000000
+	#400000
+	#403020
+	#504020
+	#303030
+	#806040
+	#908080
+	#c0b0b0
+	#d0c0c0
+	#d8d0d0
+	#e8e0e0
+	#f0ece0
+	#fcf8f8
+	#ffffff
+    #e05030
+    #50b030
+    
+********/
+
+html, body {
+	color: green;
+	background: #908080;
+}
+a {
+	color: #806040;
+}
+a:hover {
+	color: #000000;
+	background: #e8e0e0;
+}
+
+.vnav span.title	{	border-bottom-color: #c0b0b0; color: #806040;   }
+.vnav a		{	color: #504020;    }
+.hnav a		{	color: #403020;    }
+.hnav a:hover {    color: #000000; background: #d0c0c0;    }
+
+div.page {
+	color: #403020;
+	background: #fcf8f8; 
+}
+
+div.heading, div.heading a.invisible
+{
+    color: #ffffff;
+    background: #400000;
+	border-bottom-color: #ffffff;
+}
+
+div.footer
+{
+    color: #504020;
+    background: #e8e0e0;
+	border-top-color: #303030;
+	border-bottom-color: #303030;
+}
+
+div.hnav
+{
+    color: #504020;
+    background: #e8e0e0;
+	border-bottom-color: #303030;
+}
+
+div.menucolumn
+{
+    background: transparent;
+	border-right-color: #d8d0d0;
+}
+
+div.contentcolumn pre
+{
+	color: #403020;
+	background: #f0ece0;
+	border-color: #d8d0d0;
+}
+
+div.contentcolumn blockquote
+{
+	color: #403020;
+    border-left: solid #d8d0d0 2px;
+    border-right: solid #d8d0d0 2px;
+    border-top: dotted #d8d0d0 1px;
+    border-bottom: dotted #d8d0d0 1px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+div.contentcolumn h1,div.contentcolumn h2,div.contentcolumn h3,div.contentcolumn h4,div.contentcolumn h5,div.contentcolumn h6
+{
+    color: #806040;
+}
+
+div.contentcolumn	{	background: #fcf8f8;   }
+span.count			{	color: #c0b0b0;    }
+span.error			{	color: #e05030; font-weight: bold;  }
+span.message		{	color: #50b030; font-weight: bold;  }
+div.category 		{	border-color: #d8d0d0;    }
+div.comment 		{	border-top-color: #c0b0b0;    }
+
+div.article h4      {   background-color: #f0ece0; border-bottom: solid #d8d0d0 1px; }
+
+address
+{
+    color: #806040;
+	border-top-color: #c0b0b0;
+}
+
+fieldset {
+	border-color: #d0c0c0;
+}
+fieldset legend {
+	color: #504020;
+}
